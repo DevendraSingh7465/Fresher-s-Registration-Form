@@ -1,0 +1,59 @@
+1. command used for setting name
+Ans. git config --global user.name "Dev"
+
+2. command used for setting email
+Ans. git config --global user.email "devendrasingh7465@gmail.com"
+
+3. command used to check what changes we have made
+Ans. git config --list
+
+4. to copy the repo from github account to local storage just go inside the folder and open terminal then type
+Ans. git clone <https link of repo>
+
+5. to change directory or open folder
+Ans. cd <folder name>
+command for going back : cd .. 
+
+6. to list all the files present in the folder.
+Ans. ls 
+
+7. to list all the files plus the hidden files(not working)
+Ans. ls -a
+
+8. to track all the changes we can use 
+Ans. git status
+
+there are 4 types of status 
+U - untracked - new files found 
+M - modified - changes in file
+S - staged - file is ready to commit
+- unmodified - unchanged
+
+9. before commit we have to add our files to git staging area.
+Ans. git add <file.name>
+
+to add all the files, write: git add .
+
+10. to commit changes 
+Ans. git commit -m"your message"
+
+11. to upload local repo to remote repo
+Ans. git push origin main
+
+12. to create new folder
+Ans. mkdir <folder name>
+
+13. to initialize new folder
+Ans. git init
+
+14. now you have to create new repo manually without any readme file. and copy its https link.(now this command will add you local storage folder to repo)
+Ans. git remote add origin <link>
+
+15. to verify remote
+Ans. git remote -v
+
+16. to verify branch
+Ans. git branch
+
+17. To rename branch
+Ans. git branch -M main
