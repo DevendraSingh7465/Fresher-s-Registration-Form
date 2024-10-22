@@ -51,13 +51,19 @@
     </script>
 </head>
 <body>
+    <div class="container">
+  <div class="navbar">
+    <a href="terms.html">Terms & Conditions</a>
+    <a href="privacy_policy.html">Privacy Policy</a>
+    <a href="refund.html">Refund Policy</a>
+</div>
     <div class="login-box">
         <center><h2 id="heading">REGISTRATION FORM</h2></center>
         <form method="post" action="checkdata.php">
-          <div class="user-box">
+          <!-- <div class="user-box">
             <input type="text" name="studname1" id="studname" required="">
             <label>NAME</label>
-          </div>
+          </div> -->
           <div class="user-box">
             <input type="text" name="studurn1" id="studurn" required="" maxlength="16">
             <label>URN</label>
@@ -85,6 +91,8 @@
             <button type="submit"><a>SUBMIT<span></span></a></button>
           </center>
         </form>
+        <a id="policy" href="terms.html">Terms & Conditions</a>
+    </div>
     </div>
     <script>
       function onlyNumberKey(evt) {
