@@ -57,3 +57,21 @@ Ans. git branch
 
 17. To rename branch
 Ans. git branch -M main
+
+18. to create new branch
+Ans. git checkout -b <new branch name>
+
+19. to change branch 
+Ans. git checkout <branch name>
+
+20. to delete branch(this command will not work if you are already in the same branch)
+Ans. git branch -d <branch name>
+
+21. to compare commits, branches, files
+Ans. git diff <branch name> 
+
+22. to merge 2 branches
+Ans. git merge <branch name>
+
+23. to pull all the changes from repo to local storage.
+Ans. git pull origin main
